@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- action bar -->
+	<item 
+		android:id="@+id/help"
+		android:icon="?attr/icon_help"
+		android:title="@string/help"
+		android:showAsAction="always"/>
+
+	<item 
+		android:id="@+id/new_metric"
+		android:icon="?attr/icon_new"
+		android:title="@string/create_metric"
+		android:showAsAction="always"/>
+
+
+	<!-- menu button -->
+
+	<item 
+		android:id="@+id/upgrade"
+		android:title="@string/upgrade_app"
+		android:showAsAction="never"/>
+
+	<item 
+		android:id="@+id/rate"
+		android:title="@string/rate_app"
+		android:showAsAction="never"/>
+
+	<item 
+		android:id="@+id/about"
+		android:title="@string/about"
+		android:showAsAction="never"/>
+
+</menu>

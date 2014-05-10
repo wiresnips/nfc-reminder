@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="upsell_prompts">
+
+		<item>
+			Hello there! | 
+			I\'m really excited that you\'re giving Track &amp; Graph a shot.\n\nIf you like it, please consider upgrading to premium- it supports development AND disables banner ads!
+		</item>
+
+		<item>
+			Ahoy! |
+			Just popping by to see how things are going. Everything\'s on track, I hope?\n\nRemember that you can upgrade to premium any time you like. It\'ll help support further development, and you\'ll disable the banner ads (and also these popups).
+		</item>
+
+		<item>
+			How\'s it going? | 
+			I hope Track &amp; Graph is working out well for you.\n\nIf you\'re getting good use from it, maybe premium is the thing for you- kill the banner ads and support further development in one fell swoop!
+		</item>
+
+		<item>
+			Keep it up |
+			Wow, you\'re really getting some mileage out of Track &amp; Graph. Awesome!\n\nIf you ever want to get a little more from it, consider bumping up to premium. It strips out the ads, and I\'ll never bother you with these popups again!.
+		</item>
+
+		<item>
+			Amazing! |
+			You\'re a tracking machine. Keep on it!\n\nAnd if you ever feel like kicking a little something my way, premium will always be there for you.
+		</item>
+
+	</string-array>
+
+
+</resources>

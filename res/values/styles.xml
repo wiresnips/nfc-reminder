@@ -1,0 +1,72 @@
+<resources>
+    
+
+    <style name="Theme" parent="@android:style/Theme.Holo.Light">
+        <item name="icon_new"    >@drawable/core_new_light</item>
+        <item name="icon_edit"   >@drawable/core_edit_light</item>
+        <item name="icon_accept" >@drawable/core_accept_light</item>
+        <item name="icon_cancel" >@drawable/core_cancel_light</item>
+        <item name="icon_delete" >@drawable/core_discard_light</item>
+        <item name="icon_more"   >@drawable/core_overflow_light</item>
+        <item name="icon_back"   >@drawable/navigation_back_light</item>
+        <item name="icon_help"   >@drawable/extra_actions_help_light</item>
+        <item name="icon_save"   >@drawable/content_save_light</item>
+        <item name="icon_time"   >@drawable/device_access_time_light</item>
+        <item name="icon_date"   >@drawable/collections_go_to_today_light</item>
+        <item name="icon_rate"   >@drawable/rating_important_light</item>
+        <item name="icon_copy"   >@drawable/core_copy_light</item>
+        <item name="icon_paste"  >@drawable/core_paste_light</item>
+        <item name="icon_warning">@drawable/alerts_and_states_warning_light</item>
+        <item name="icon_backspace">@drawable/content_backspace_light</item>
+
+        <item name="prompt_arrow">@drawable/prompt_arrow_light</item>
+        <item name="prompt_frame">@drawable/prompt_frame_light</item>
+
+        <item name="android:actionModeCloseDrawable">?attr/icon_cancel</item>
+    </style>
+
+    <!-- this should be a direct dupe of what's above. Because fuck me, that's why. -->
+    <style name="FakeDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="icon_new"    >@drawable/core_new_light</item>
+        <item name="icon_edit"   >@drawable/core_edit_light</item>
+        <item name="icon_accept" >@drawable/core_accept_light</item>
+        <item name="icon_cancel" >@drawable/core_cancel_light</item>
+        <item name="icon_delete" >@drawable/core_discard_light</item>
+        <item name="icon_more"   >@drawable/core_overflow_light</item>
+        <item name="icon_back"   >@drawable/navigation_back_light</item>
+        <item name="icon_help"   >@drawable/extra_actions_help_light</item>
+        <item name="icon_save"   >@drawable/content_save_light</item>
+        <item name="icon_time"   >@drawable/device_access_time_light</item>
+        <item name="icon_date"   >@drawable/collections_go_to_today_light</item>
+        <item name="icon_rate"   >@drawable/rating_important_light</item>
+        <item name="icon_copy"   >@drawable/core_copy_light</item>
+        <item name="icon_paste"  >@drawable/core_paste_light</item>
+        <item name="icon_warning">@drawable/alerts_and_states_warning_light</item>
+        <item name="icon_backspace">@drawable/content_backspace_light</item>
+
+        <item name="prompt_arrow">@drawable/prompt_arrow_light</item>
+        <item name="prompt_frame">@drawable/prompt_frame_light</item>
+
+        <item name="android:actionModeCloseDrawable">?attr/icon_cancel</item>
+
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Transparent" parent="@style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="DurationPicker">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

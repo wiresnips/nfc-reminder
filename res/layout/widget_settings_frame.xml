@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView
+		android:id="@+id/preview"
+		android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent"
+		android:layout_height="75dp"/>
+
+	<FrameLayout
+		android:id="@+id/socket"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_above="@id/preview"/>
+
+</RelativeLayout>

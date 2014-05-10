@@ -1,0 +1,33 @@
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        
+    <Preference 
+        android:key="metric_config"
+        android:title="@string/help_metric_edit" 
+        android:summary="@string/help_metric_edit_summary"
+        android:persistent="false">
+
+        <intent 
+            android:targetPackage="com.novorobo.tracker.app"
+            android:targetClass="com.novorobo.tracker.app.HelpMetricEdit"/>
+    </Preference>
+
+    <Preference 
+        android:key="widget_creation"
+        android:title="@string/help_widget_creation" 
+        android:summary="@string/help_widget_creation_summary"
+        android:persistent="false">
+
+        <intent 
+            android:targetPackage="com.novorobo.tracker.app"
+            android:targetClass="com.novorobo.tracker.app.HelpWidgetCreation"/>
+    </Preference>
+
+    <Preference 
+        android:key="contact"
+        android:title="@string/help_contact_dev" 
+        android:summary="@string/help_contact_dev_summary"
+        android:persistent="false"/>
+
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/data_entry_view_duration"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="16dp"
+	android:gravity="center_horizontal">
+
+	<NumberPicker
+		android:id="@+id/days"
+		style="@style/DurationPicker"/>
+
+	<TextView
+		android:id="@+id/day_separator"
+		style="@style/DurationPicker"
+		android:text="@string/duration_picker_separator_days"/>
+
+	<NumberPicker
+		android:id="@+id/hours"
+		style="@style/DurationPicker"/>
+
+	<TextView
+		style="@style/DurationPicker"
+		android:text="@string/duration_picker_separator"/>
+
+	<NumberPicker
+		android:id="@+id/minutes"
+		style="@style/DurationPicker"/>
+
+	<TextView
+		style="@style/DurationPicker"
+		android:text="@string/duration_picker_separator"/>
+
+	<NumberPicker
+		android:id="@+id/seconds"
+		style="@style/DurationPicker"/>
+
+	<TextView
+		android:id="@+id/centisecond_separator"
+		style="@style/DurationPicker"
+		android:text="@string/duration_picker_separator_centisecs"/>
+
+	<NumberPicker
+		android:id="@+id/centiseconds"
+		style="@style/DurationPicker"/>
+
+
+</LinearLayout>

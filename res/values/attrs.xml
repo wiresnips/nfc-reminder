@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<!-- themed icon references -->
+	<attr name="icon_new" format="reference"/>
+	<attr name="icon_edit" format="reference"/>
+	<attr name="icon_accept" format="reference"/>
+	<attr name="icon_cancel" format="reference"/>
+	<attr name="icon_delete" format="reference"/>
+	<attr name="icon_more" format="reference"/>
+	<attr name="icon_back" format="reference"/>
+	<attr name="icon_help" format="reference"/>
+	<attr name="icon_save" format="reference"/>
+	<attr name="icon_time" format="reference"/>
+	<attr name="icon_date" format="reference"/>
+	<attr name="icon_rate" format="reference"/>
+    <attr name="icon_copy" format="reference"/>
+    <attr name="icon_paste" format="reference"/>
+	<attr name="icon_warning" format="reference"/>
+	<attr name="icon_backspace" format="reference"/>
+
+	<attr name="prompt_arrow" format="reference"/>
+	<attr name="prompt_frame" format="reference"/>
+
+
+
+
+    <declare-styleable name="NumpadPreference">
+        <attr name="maxValue" format="float" />
+        <attr name="minValue" format="float" />
+        <attr name="allowNegative" format="boolean" />
+        <attr name="allowFractional" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="indicatorColor" format="color" />
+        <attr name="underlineColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="indicatorHeight" format="dimension" />
+        <attr name="underlineHeight" format="dimension" />
+        <attr name="dividerPadding" format="dimension" />
+        <attr name="tabPaddingLeftRight" format="dimension" />
+        <attr name="scrollOffset" format="dimension" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="textAllCaps" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SliderPreference">
+        <attr name="android:summary" />
+        <attr name="showProgressWidget" format="boolean" />
+    </declare-styleable>
+
+</resources>
+
+

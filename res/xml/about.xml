@@ -1,0 +1,99 @@
+
+
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:key="about_version"
+        android:title="@string/about_version" 
+        android:persistent="false"
+        />
+
+    <Preference
+        android:key="about_contact"
+        android:title="@string/about_contact" 
+        android:summary="@string/about_contact_summary"
+        android:persistent="false"
+        />
+
+    <CheckBoxPreference
+        android:key="about_upgrade_premium"
+        android:title="@string/about_upgrade_premium" 
+        android:summary="@string/about_upgrade_premium_summary"
+        android:persistent="false"
+        />
+
+    <Preference
+        android:key="about_rate_review"
+        android:title="@string/about_rate_review" 
+        android:summary="@string/about_rate_review_summary"
+        android:persistent="false"
+        />
+
+    <CheckBoxPreference
+        android:key="collect_analytics"
+        android:title="@string/collect_analytics" 
+        android:summary="@string/collect_analytics_summary"
+        android:defaultValue="true"
+        />
+
+    <Preference
+        android:key="about_privacy_policy"
+        android:title="@string/about_privacy_policy" 
+        android:summary="@string/about_privacy_policy_summary"
+        android:persistent="false"
+        />
+
+
+    <PreferenceScreen
+        android:key="about_licenses"
+        android:title="@string/about_licenses" 
+        android:summary="@string/about_licenses_summary">
+
+
+        <PreferenceCategory 
+            android:title="@string/license_software_used">
+
+            <Preference
+                android:key="license_achartengine"
+                android:title="@string/license_achartengine" 
+                android:summary="@string/license_achartengine_summary"
+                android:persistent="false"
+                />
+
+            <Preference
+                android:key="license_holocolorpicker"
+                android:title="@string/license_holocolorpicker" 
+                android:summary="@string/license_holocolorpicker_summary"
+                android:persistent="false"
+                />
+
+            <Preference
+                android:key="license_sliderpreference"
+                android:title="@string/license_sliderpreference" 
+                android:summary="@string/license_sliderpreference_summary"
+                android:persistent="false"
+                />            
+        </PreferenceCategory>
+
+        <PreferenceCategory 
+            android:title="@string/licenses_text_section">
+
+            <Preference
+                android:key="license_apache"
+                android:title="@string/license_apache" 
+                android:persistent="false"
+                />
+
+
+            <Preference
+                android:key="license_mit"
+                android:title="@string/license_mit" 
+                android:persistent="false"
+                />
+
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>

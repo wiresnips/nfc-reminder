@@ -1,0 +1,24 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="16dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/number"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		style="@android:style/TextAppearance.Large"
+		/>
+
+	<SeekBar
+		android:id="@+id/slider"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+		
+</LinearLayout>
+

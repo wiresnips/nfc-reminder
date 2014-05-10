@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="help_index">Track &amp; Graph help</string>
+
+	<string name="help_contact_dev">Still got questions?</string>
+	<string name="help_contact_dev_summary">
+		Send me email! I\'d love to help you out!
+	</string>
+	<string name="support_email">Ben.Ells.Apps@gmail.com</string>
+	<string name="support_prefix">Track &amp; Graph support: v</string>
+	<string name="email_picker_title">Send mail...</string>
+	
+	<string name="help_metric_edit">Metric configuration guide</string>
+	<string name="help_metric_edit_summary">
+		Detailed explanations of every setting and option for your metric.
+	</string>
+
+	<string name="help_metric_edit_overview">
+		Here\'s a quick overview of what the various metric settings mean, and how they\'re meant to be used.
+	</string>
+
+	<string name="help_metric_edit_datatype_overview">
+		Depending on what you\'re tracking, you can choose from four basic data types. You can change this at any time- no data will be lost, but data of one type will now be shown while the graph is set to another.
+	</string>
+
+	<string name="help_datatype_event_label">Events</string>
+	<string name="help_datatype_event">
+		The simplest sort of data, useful mostly for tracking things that happen one at a time. For example, you could use it to track how many cups of coffee you drink, how many cigarettes you smoke, or how often you floss.
+	</string>
+
+	<string name="help_datatype_amount_label">Amounts</string>
+	<string name="help_datatype_amount">
+		The catchall data type. If you want to track your weight, how much you can benchpress, your tetris score, or how much money you spend on stamps- this is the go-to data type.
+	</string>
+
+	<string name="help_datatype_duration_label">Durations</string>
+	<string name="help_datatype_duration">
+		A special-case of Amounts, with a time-based input widget and smarter axis labelling. If you want to record your sprint times, or how long you spend meditating, this is the type to pick.
+	</string>
+
+	<string name="help_datatype_range_label">Percentages</string>
+	<string name="help_datatype_range">
+		This data type isn\'t strictly limited to percentages- anything that\'s locked into a fixed range should use it. Proper percentages are the typical example, of course, but you can also use it for movie ratings in stars, or any kind of subjective measure, like "happiness on a scale from 1 to 10". The default maximum is 100, but you can change it with the "Range max" setting.
+	</string>
+
+
+	<string name="help_aggregateFunction">
+		Here you set what you want to know about your metric. You can choose to show the total, the average, the minimum, the maximum, or the all-time total. It all comes down to what your goals are. For example: tracking golf strokes? I suggest showing the minimum. Tracking how many glasses of water you drink? You want the total. Easy peasy.
+	</string>
+	<string name="help_aggregateFunction_note">
+		Note: If you\'re tracking events, or if you opt to display entries individually, not all options are available.
+	</string>
+
+
+	<string name="help_aggregatePeriod">
+		This determines the time-scale to use in interpreting your metric. For example, if you\'re tracking "glasses of water per day", this is how you set the "per day" bit.
+	</string>
+	<string name="help_aggregatePeriod_note">
+		Note: If you\'re tracking events, you cannot choose to graph entries individually.
+	</string>
+
+
+
+	<string name="help_input_tweaks_overview">
+		Some of the data input dialogs can be tweaked in small ways to better suit your needs
+	</string>
+	<string name="help_input_tweaks_range">
+		Sets the upper end of your Percentage. (I know, I know- it wouldn\'t be a percentage anymore). To record movie ratings, you might choose a value of 5.
+	</string>
+	<string name="help_input_tweaks_duration">
+		The default duration input dialog cannot record times longer than 24 hours, or fractions of a second.
+		You can choose to use an extended dialog if you need to be able to do this.
+	</string>
+
+
+
+
+
+
+
+
+
+
+	
+
+	<string name="help_widget_creation">Graph creation guide</string>
+	<string name="help_widget_creation_summary">
+		If you\'re wondering where your graph is, this is the one you want!\n\nA step-by-step guide to placing a widget on your homescreen and hooking it up to your metric.
+	</string>
+
+	<string name="help_widget_dialog_noshow">Don\'t show this again</string>
+
+	<string name="help_widget_creation_overview">
+		Alright! You\'ve made yourself a metric, and you\'re ready to graph it and start making entries.
+	</string>
+
+	<string name="help_widget_creation_overview_2">
+		This guide will walk you through adding a graph widget to your homescreen and linking it to a metric. Unfortunately, this can\'t be done without leaving the app, so be sure to read the instructions through before you begin.
+	</string>
+
+	<string name="help_widget_creation_overview_3">
+		If you need to see this guide again, just tap the [?] in the top bar of Track &amp; Graph\'s main screen and choose "Graph creation guide".
+	</string>
+
+
+	<string name="help_widget_creation_steps_label">
+		Placing a homescreen widget
+	</string>
+
+	<string name="help_widget_creation_step_1">
+		Press the Home button to leave the app. (Don\'t do this just yet!)
+	</string>
+
+	<string name="help_widget_creation_step_2">
+		Make sure that you have an open space on your homescreen to put your graph into. For most people this won\'t be a problem, but if your homescreen is completely full you\'ll need to remove an existing icon or widget to make room.
+	</string>
+
+	<string name="help_widget_creation_step_3">
+		Open the App List and go to the Widgets section. Find the widget with the Track &amp; Graph icon.
+	</string>
+
+	<string name="help_widget_creation_step_4">
+		Press-and-hold the widget to grab it and add it to your homescreen. Drop it into the space you picked out in step 2.
+	</string>
+
+	<string name="help_widget_creation_step_5">
+		When you place the widget, a dialog will appear with a list of existing metrics. Pick your metric from the list, and it\'ll be linked to your graph.
+	</string>
+
+	<string name="help_widget_creation_step_5_note">
+		Note: If you haven\'t got any metrics, or if you just want to make a new one, you can tap "Create new metric" instead. This will open the "New metric" configuration screen. The metric you create will be linked to the widget you just created.
+	</string>
+
+	<string name="help_widget_creation_step_6">
+		With the metric linked, if you want your graph to be larger than 1x1, you can press-and-hold the widget once again. Drag the blue handles to resize the graph.
+	</string>
+
+	<string name="help_widget_creation_wrapup">
+		That\'s all you need to do to add a graph widget to your homescreen and link it to a metric. Remember that if you want to get back to this guide at any time, you can reach it by tapping the [?] from the main screen, then selecting "Graph creation guide".
+	</string>
+
+	<string name="help_widget_creation_wrapup_2">
+		 Good luck, and happy tracking!
+	</string>
+
+
+</resources>

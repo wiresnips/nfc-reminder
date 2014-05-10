@@ -1,0 +1,65 @@
+
+
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference 
+    	android:key="metric_name"
+    	android:persistent="false"
+        android:title="@string/metric_name_label" 
+        android:inputType="textFilter" 
+        android:selectAllOnFocus="true"
+        />
+
+
+        <ListPreference 
+        	android:key="metric_datatype"
+        	android:persistent="false"
+        	android:title="@string/metric_datatype_label" 
+            android:entryValues="@array/metric_datatype_values"
+            android:entries="@array/metric_datatype_descriptions"/>
+
+        <ListPrefDisableable 
+            android:key="metric_aggregateFunction"
+            android:persistent="false"
+            android:title="@string/metric_aggregateFunction_label" 
+            android:entryValues="@array/metric_aggregateFunction_values"
+            android:entries="@array/metric_aggregateFunction_descriptions"/>
+
+        <ListPrefDisableable 
+            android:key="metric_aggregatePeriod"
+            android:persistent="false"
+            android:title="@string/metric_aggregatePeriod_label" 
+            android:entryValues="@array/metric_aggregatePeriod_values"
+            android:entries="@array/metric_aggregatePeriod_descriptions"/>
+
+
+        <Preference
+            android:key="metric_settings_widget_appearance"
+            android:title="@string/metric_settings_widget_appearance" 
+            android:summary="@string/metric_settings_widget_appearance_summary"
+            android:persistent="false"
+            />
+
+	<PreferenceCategory 
+        android:title="@string/metric_settings_section_input_misc">
+
+        <NumpadPreference
+            android:key="metric_rangeMax"
+            android:persistent="false"
+            android:title="@string/metric_rangeMax_label"
+            custom:allowNegative="false"
+            custom:allowFractional="false"
+            />
+
+	    <ListPreference 
+	    	android:key="metric_durationPickerExt"
+	    	android:persistent="false"
+	    	android:title="@string/metric_durationPickerExt_label" 
+	        android:entryValues="@array/metric_durationPickerExt_values"
+	        android:entries="@array/metric_durationPickerExt_descriptions"/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
